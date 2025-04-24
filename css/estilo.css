@@ -1,3 +1,33 @@
 body{
-    background-color: lightblue;
+    background-color:ghostwhite;
+    
 }
+
+table,tr,td,th{
+    background-color: whitesmoke;
+    color:black;
+    border: 1px solid black;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style:dotted;
+    border-collapse: collapse;
+}
+th{
+    background-color:bisque;
+    color: black;
+}
+table{
+    width: 50%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+th :hover{
+    background-color:#04AA6D;
+    color: yellow;
+    font-size: 20px;
+}
+
